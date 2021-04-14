@@ -1,24 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+import Post from './Post'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="app_header">
+        <img
+          className="app_headerImage"
+          src="https://1000logos.net/wp-content/uploads/2017/02/ig-logo.png"
+          alt=""
+        />
+
+
+      </div>
+      <Post />
+      {/*header */}
+      {/*header */}
+      {/*header */}
+      {/*header */}
+    </div >
   );
 }
 
